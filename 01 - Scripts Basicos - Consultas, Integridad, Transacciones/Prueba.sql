@@ -1,0 +1,1 @@
+SELECT * FROM `world`.`city` LIMIT 50;

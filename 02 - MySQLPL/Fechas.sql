@@ -1,0 +1,6 @@
+DROP PROCEDURE IF EXISTS fecha;
+
+CREATE PROCEDURE fecha()
+SELECT CURRENT_DATE, RAND(),Nombre from jugadores;
+
+CALL fecha;
